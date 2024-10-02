@@ -1,0 +1,295 @@
+html, body{
+    background: #000000;
+    background: radial-gradient(circle, #000000 0%, #000000 35%, #000000 100%);
+    font-family: 'Montserrat', sans-serif; /* Updated font family */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evitar desplazamiento durante el loader */
+}
+
+/* Estilo para el logo */
+.navbar-brand img {
+    height: 50px; /* Ajusta el tamaño del logo */
+}
+
+.navbar-brand, .nav-link, footer h5, footer p, .modal-title, .list-group-item {
+    font-family: 'Montserrat', sans-serif; /* Updated font family */
+}
+
+
+.product-card {
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #ffffff; /* Opcional: agregar un borde a la tarjeta */
+    border-radius: 5px; /* Opcional: redondear esquinas */
+    overflow: hidden; /* Para evitar que el contenido se desborde */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar efecto de elevación */
+}
+
+ /* Asegura que la navbar tenga un fondo negro */
+        .navbar {
+            background-color: #000 !important;
+        }
+        /* Agrega animación en hover */
+        .nav-link:hover {
+            animation: pulse 1s;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+
+
+
+
+/* Forzamos que todo el contenido esté oculto mientras el loader esté activo */
+#content, footer {
+    display: none; /* Ocultamos contenido y footer inicialmente */
+}
+
+/* Estilos para el loader que cubre toda la pantalla */
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    z-index: 9999; /* Asegúrate de que esté sobre todo */
+}
+
+/* Animación de giro */
+#loader .spinner {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #3498db;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+.sidebar {
+    background: rgb(10, 10, 20); /* Color de fondo oscuro para la sidebar */
+    background: radial-gradient(circle, rgba(10, 10, 20, 1) 0%, rgba(25, 25, 50, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
+    transition: background 0.3s ease;
+}
+
+.sidebar:hover {
+    background: radial-gradient(circle, rgba(10, 10, 20, 1) 0%, rgba(25, 25, 50, 1) 70%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Sombra más profunda en hover */
+}
+
+.sidebar h3 {
+    color: hsl(0, 0%, 100%); /* Gris claro elegante para los títulos */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #333; /* Línea sutil debajo del título en gris oscuro */
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #272727; /* Fondo gris oscuro para las opciones */
+    transition: background-color 0.3s ease;
+}
+
+.checkbox-container:hover {
+    background-color: #333; /* Cambio de fondo gris más claro en hover */
+}
+
+.checkbox-label {
+    color: #ffffff; /* Gris claro para el texto */
+    margin-left: 10px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.category-checkbox {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    accent-color: #000000; /* Color azul elegante para la casilla */
+}
+
+.category-checkbox:checked + .checkbox-label {
+    color: #ffffff; /* Blanco grisáceo cuando está marcado */
+    font-weight: bold;
+}
+
+.checkbox-label:hover {
+    color: #4ecca3; /* Verde azulado suave en hover */
+}
+
+.animate__animated.animate__fadeIn {
+    animation-duration: 1s;
+}
+
+.container-fluid {
+background-color: rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Sombra más profunda para dar dimensión */
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para el título */
+.carousel-caption h5 {
+    font-size: 2rem; /* Tamaño del título */
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-in-out;
+}
+
+     /* Estilo para la descripción */
+     .carousel-caption p {
+        font-size: 1.2rem; /* Tamaño del texto de descripción */
+        line-height: 1.5;
+        margin-top: 10px;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Sombra del texto */
+        font-family: 'Open Sans', sans-serif;
+        animation: fadeIn 2.5s ease-in-out;
+    }
+
+/* Animaciones */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Transiciones suaves */
+.carousel-caption h5, .carousel-caption p {
+    transition: all 0.5s ease-in-out;
+}
+
+/* Efecto hover */
+.carousel-caption:hover h5 {
+    color: #ffcc00;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+}
+
+.carousel-caption:hover p {
+    color: #ffdd57;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para los logos del marquee */
+.marquee-logo {
+    width: 150px; /* Ajustar el tamaño del logo */
+    height: auto; /* Mantener la proporción */
+    margin-right: 30px; /* Espacio entre los logos */
+    transition: transform 0.3s ease; /* Transición suave para hover */
+}
+
+.marquee-logo:hover {
+    transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse por encima */
+}
+
+
+
+/* Estilo para el footer */
+footer {
+    background-color: #FFD700; /* Color amarillo oscuro */
+    color: #ffffff; /* Mantiene el texto en blanco */
+    text-align: center; /* Centrar el texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para los encabezados */
+footer h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+/* Estilo para los párrafos y enlaces */
+footer p, footer a {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+/* Estilo para los enlaces */
+footer a {
+    color: #ffffff; /* Mantiene los enlaces en blanco */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Transición suave */
+}
+
+/* Hover en los enlaces */
+footer a:hover {
+    color: #000000; /* Cambia el color de los enlaces al pasar el mouse */
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7); /* Sombra de texto al hover */
+}
+
+/* Estilo para los botones */
+footer button {
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+/* Hover en los botones */
+footer button:hover {
+    background-color: #ffffff; /* Cambia el color de fondo al pasar el mouse */
+    color: #FFD700; /* Cambia el color del texto al pasar el mouse */
+    transform: scale(1.1); /* Agranda el botón al pasar el mouse */
+}

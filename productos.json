@@ -1,0 +1,37 @@
+[
+    { "id": 1, "nombre": "Capa Profesional", "categoria": "capa", "precio": 20, "imagen": "assets/capa-6.png", "descripcion": "Capa de alta calidad para uso profesional en salones." },
+    { "id": 2, "nombre": "Clipper", "categoria": "clipper", "precio": 150, "imagen": "assets/clipper-1.png", "descripcion": "Clipper potente y versátil, ideal para cualquier tipo de corte." },
+    { "id": 3, "nombre": "Tijeras", "categoria": "tijera", "precio": 50, "imagen": "assets/tijeras-1.png", "descripcion": "Tijeras de corte clásico para uso en peluquería." },
+    { "id": 4, "nombre": "Repuestos", "categoria": "repuestos", "precio": 10, "imagen": "assets/repuesto-1.png", "descripcion": "Repuesto estándar para herramientas de peluquería." },
+    { "id": 5, "nombre": "Trimmer", "categoria": "trimmer", "precio": 100, "imagen": "assets/trimmer-1.png", "descripcion": "Trimmer compacto y eficiente para recortes precisos." },
+    
+    { "id": 6, "nombre": "Trimmer Profesional", "descripcion": "Ideal para cortes profesionales precisos.", "precio": 110, "imagen": "assets/trimmer-1.png", "categoria": "trimmer" },
+    { "id": 7, "nombre": "Trimmer Compacto", "descripcion": "Perfecto para uso doméstico y fácil de almacenar.", "precio": 95, "imagen": "assets/trimmer-2.png", "categoria": "trimmer" },
+    { "id": 8, "nombre": "Trimmer de Precisión", "descripcion": "Ofrece cortes detallados y precisos.", "precio": 120, "imagen": "assets/trimmer-3.png", "categoria": "trimmer" },
+    { "id": 9, "nombre": "Trimmer Recargable", "descripcion": "Batería de larga duración y fácil recarga.", "precio": 105, "imagen": "assets/trimmer-4.png", "categoria": "trimmer" },
+    { "id": 10, "nombre": "Trimmer Inalámbrico", "descripcion": "Máxima movilidad y conveniencia sin cables.", "precio": 130, "imagen": "assets/trimmer-5.png", "categoria": "trimmer" },
+
+    { "id": 11, "nombre": "Clipper Ultra Silencioso", "categoria": "clipper", "precio": 160, "imagen": "assets/clipper-1.png", "descripcion": "Clipper diseñado para un funcionamiento ultra silencioso." },
+    { "id": 12, "nombre": "Clipper de Alta Velocidad", "categoria": "clipper", "precio": 170, "imagen": "assets/clipper-2.png", "descripcion": "Clipper de gran velocidad para cortes rápidos y eficientes." },
+    { "id": 13, "nombre": "Clipper Compacto", "categoria": "clipper", "precio": 140, "imagen": "assets/clipper-3.png", "descripcion": "Diseño compacto para fácil manejo y almacenamiento." },
+    { "id": 14, "nombre": "Clipper Profesional", "categoria": "clipper", "precio": 180, "imagen": "assets/clipper-4.png", "descripcion": "Clipper de grado profesional para los cortes más exigentes." },
+    { "id": 15, "nombre": "Clipper de Precisión", "categoria": "clipper", "precio": 165, "imagen": "assets/clipper-5.png", "descripcion": "Clipper que garantiza cortes precisos y detallados." },
+
+    { "id": 16, "nombre": "Tijeras Dentadas", "categoria": "tijera", "precio": 60, "imagen": "assets/tijeras-1.png", "descripcion": "Tijeras dentadas para cortes con textura y volumen." },
+    { "id": 17, "nombre": "Tijeras de Precisión", "categoria": "tijera", "precio": 70, "imagen": "assets/tijeras-2.png", "descripcion": "Tijeras de alta precisión para cortes detallados." },
+    { "id": 18, "nombre": "Tijeras Profesionales", "categoria": "tijera", "precio": 80, "imagen": "assets/tijeras-3.png", "descripcion": "Tijeras de calidad profesional para peluqueros exigentes." },
+    { "id": 19, "nombre": "Tijeras para Despuntar", "categoria": "tijera", "precio": 55, "imagen": "assets/tijeras-4.png", "descripcion": "Tijeras ideales para despuntar y perfeccionar el corte." },
+    { "id": 20, "nombre": "Tijeras de Acero Inoxidable", "categoria": "tijera", "precio": 65, "imagen": "assets/tijeras-5.png", "descripcion": "Tijeras de acero inoxidable para mayor durabilidad y precisión." },
+
+    { "id": 21, "nombre": "Repuestos de Cuchillas", "categoria": "repuestos", "precio": 15, "imagen": "assets/repuesto-1.png", "descripcion": "Cuchillas de repuesto para clippers y trimmers." },
+    { "id": 22, "nombre": "Cargador para Clipper", "categoria": "repuestos", "precio": 25, "imagen": "assets/repuesto-2.png", "descripcion": "Cargador compatible con diversos modelos de clippers." },
+    { "id": 23, "nombre": "Aceite Lubricante", "categoria": "repuestos", "precio": 8, "imagen": "assets/repuesto-3.png", "descripcion": "Aceite lubricante para el mantenimiento de clippers y tijeras." },
+    { "id": 24, "nombre": "Batería Recargable", "categoria": "repuestos", "precio": 30, "imagen": "assets/repuesto-4.png", "descripcion": "Batería recargable de larga duración para clippers y trimmers." },
+    { "id": 25, "nombre": "Filtros de Aire", "categoria": "repuestos", "precio": 12, "imagen": "assets/repuesto-5.png", "descripcion": "Filtros de aire para el mantenimiento de equipos de peluquería." },
+
+    { "id": 26, "nombre": "Capa Infantil", "categoria": "capa", "precio": 15, "imagen": "assets/capa-1.png", "descripcion": "Capa diseñada especialmente para niños, cómoda y ajustable." },
+    { "id": 27, "nombre": "Capa Desechable", "categoria": "capa", "precio": 5, "imagen": "assets/capa-2.png", "descripcion": "Capa desechable para un uso rápido y práctico en salones." },
+    { "id": 28, "nombre": "Capa Reutilizable", "categoria": "capa", "precio": 25, "imagen": "assets/capa-3.png", "descripcion": "Capa reutilizable de alta calidad y fácil de lavar." },
+    { "id": 29, "nombre": "Capa para Tinte", "categoria": "capa", "precio": 18, "imagen": "assets/capa-4.png", "descripcion": "Capa diseñada específicamente para la aplicación de tintes." },
+    { "id": 30, "nombre": "Capa Impermeable", "categoria": "capa", "precio": 22, "imagen": "assets/capa-5.png", "descripcion": "Capa impermeable para mayor protección durante el corte." }
+]

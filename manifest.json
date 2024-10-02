@@ -1,0 +1,23 @@
+{
+    "name": "Simulador de Compra Online",
+    "short_name": "Compra Online",
+    "description": "Una aplicación para simular compras en línea de productos de barbería.",
+    "start_url": "/index.html",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#090979",
+    "icons": [
+      {
+        "src": "/assets/logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

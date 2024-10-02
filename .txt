@@ -1,0 +1,73 @@
+// Mapa Mental: Proyecto de Simulador de Compra Online
+
+// 1. Características Completadas
+
+/*
+    Estructura HTML:
+    - Navbar con enlaces a secciones.
+    - Sidebar para categorías de productos.
+    - Contenedor principal para productos.
+    - Modal para carrito de compras.
+*/
+
+/*
+    Funcionalidades JavaScript:
+    - Agregar productos al carrito desde un archivo JSON.
+    - Mostrar el conteo de productos en el carrito.
+    - Mostrar productos en el modal del carrito.
+    - Eliminar productos del carrito.
+    - Alertas de productos agregados al carrito usando SweetAlert.
+*/
+
+/*
+    Estilo CSS:
+    - Uso de Bootstrap para diseño responsivo.
+    - Animaciones usando Animate.css.
+    - Estilos personalizados en archivo CSS.
+*/
+
+// 2. Pasos para Convertir en PWA (Progressive Web App)
+
+/*
+    Registrar un Service Worker:
+    - Crear un archivo sw.js que maneje el caching de recursos.
+    - Registrar el Service Worker en el archivo JavaScript principal (app.js).
+*/
+
+/*
+    Agregar un archivo manifest.json:
+    - Definir propiedades como nombre, icono, tema de color y orientación.
+*/
+
+/*
+    Configurar el Caching:
+    - En el Service Worker, utilizar cache para almacenar archivos estáticos (HTML, CSS, JS, imágenes).
+*/
+
+/*
+    Probar la funcionalidad offline:
+    - Asegurarse de que la aplicación funcione sin conexión a Internet.
+*/
+
+/*
+    Agregar soporte para instalación:
+    - Mostrar un botón "Instalar" que permita a los usuarios agregar la PWA a la pantalla de inicio.
+*/
+
+/*
+    Optimizar el rendimiento:
+    - Minimizar el tamaño de los archivos CSS y JavaScript.
+    - Usar imágenes optimizadas.
+*/
+
+// 3. Recursos Necesarios
+
+/*
+    Documentación de PWA:
+    - Revisar guías oficiales de Google sobre PWA.
+*/
+
+/*
+    Herramientas de prueba:
+    - Usar Lighthouse para auditar la PWA y obtener sugerencias de mejora.
+*/
